@@ -1062,16 +1062,16 @@ function getConfig(userIDs, hostName, proxyIP) {
 	// HTML Head with CSS and FontAwesome library
 	const htmlHead = `
   <head>
-    <title>EDtunnel: Configuration</title>
+    <title>MULANCLOUD: Configuration</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <meta property='og:site_name' content='EDtunnel: Protocol Configuration' />
+    <meta property='og:site_name' content='MULANCLOUD: Protocol Configuration' />
     <meta property='og:type' content='website' />
-    <meta property='og:title' content='EDtunnel - Protocol Configuration and Subscribe Output' />
+    <meta property='og:title' content='MULANCLOUD - Protocol Configuration and Subscribe Output' />
     <meta property='og:description' content='Use Cloudflare Pages and Worker serverless to implement protocol' />
     <meta property='og:url' content='https://${hostName}/' />
     <meta property='og:image' content='https://cdn.jsdelivr.net/gh/6Kmfi6HP/EDtunnel@refs/heads/main/image/logo.png' />
     <meta name='twitter:card' content='summary_large_image' />
-    <meta name='twitter:title' content='EDtunnel - Protocol Configuration and Subscribe Output' />
+    <meta name='twitter:title' content='MULANCLOUD - Protocol Configuration and Subscribe Output' />
     <meta name='twitter:description' content='Use Cloudflare Pages and Worker serverless to implement protocol' />
     <meta name='twitter:url' content='https://${hostName}/' />
     <meta name='twitter:image' content='https://cdn.jsdelivr.net/gh/6Kmfi6HP/EDtunnel@refs/heads/main/image/logo.png' />
@@ -1198,10 +1198,9 @@ function getConfig(userIDs, hostName, proxyIP) {
 
 	const header = `
     <div class="container">
-      <h1>EDtunnel: Protocol Configuration</h1>
+      <h1>MULANCLOUD: Protocol Configuration</h1>
       <img src="https://cdn.jsdelivr.net/gh/6Kmfi6HP/EDtunnel@refs/heads/main/image/logo.png" alt="EDtunnel Logo" class="logo">
-      <p>Welcome! This function generates configuration for the vless protocol. If you found this useful, please check our GitHub project:</p>
-      <p><a href="https://github.com/6Kmfi6HP/EDtunnel" target="_blank" style="color: #00ff00;">EDtunnel - https://github.com/6Kmfi6HP/EDtunnel</a></p>
+      <p>Welcome! This function generates configuration for the vless protocol.</p>
       <div style="clear: both;"></div>
       <div class="btn-group">
         <a href="//${hostName}/sub/${userIDArray[0]}" class="btn" target="_blank"><i class="fas fa-link"></i> VLESS Subscription</a>
